@@ -1,0 +1,144 @@
+body {
+    background-image: url('poker.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+h1 {
+    border-bottom: 2px solid blue;
+    text-align: center;
+    color: white;
+    font-family:fantasy;
+    font-size: 60pt;
+}
+
+input {
+    font-size: 18px;
+}
+
+
+li {
+    list-style-type:decimal;
+}
+
+.formOne {
+    color: white;
+    display: flex;
+    margin-left: 40px;
+}
+
+.formTwo {
+    display: flex;
+    justify-content:center;
+    color: white;
+    /* margin-right: 400px; */
+    font-size: 48px;
+}
+
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    background: red;
+    color: rgb(250, 249, 249);
+    margin-left: 20px;
+}
+
+.counter {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 48px;
+   
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  a {
+      color: white;
+  }
+
+  nav {
+      display: flex;
+     
+  }
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+ 
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(33, 33, 33);
+  }
+  
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+ 
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  
+main {
+    color: white;
+    font-size: 24pt;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+  
